@@ -10,6 +10,9 @@ body {
     overflow-x: hidden;
     background-color: #F8F5E6;
 }
+body {
+    position: relative;
+}
 
 a,
 a:hover {
@@ -121,6 +124,8 @@ a:hover {
 .hero {
     background-image: url('../images/img/cover-landscape-img.jpg');
     background-attachment: fixed;
+    min-width: 100%;
+    min-height: 100%;
     transition: transform 0.5s ease-in-out;
     color: $primary-color;
     z-index: 0;
