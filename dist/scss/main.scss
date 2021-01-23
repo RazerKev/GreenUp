@@ -10,6 +10,7 @@ body {
     overflow-x: hidden;
     background-color: #F8F5E6;
 }
+
 body {
     position: relative;
 }
@@ -187,6 +188,13 @@ a:hover {
         position: absolute;
         bottom: 20px;
         right: 50%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hand-group {
+        max-width: 100%;
+        height: auto;
     }
 }
 
@@ -392,6 +400,7 @@ a:hover {
             &:hover {
                 flex-grow: 17;
 
+                picture,
                 img {
                     filter: grayscale(0);
                 }
@@ -406,6 +415,7 @@ a:hover {
                 }
             }
 
+            picture,
             img {
                 width: 100%;
                 height: 100%;
@@ -913,6 +923,7 @@ screen and (max-height: 630px) {
 .no-webp .hero {
     background-image: url('../images/img/cover-landscape-img-mobile-min.jpg');
 }
+
 .webp .hero {
     background-image: url('../images/img/cover-landscape-min.webp');
 }
