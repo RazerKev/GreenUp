@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>GreenUp</title>
-    <meta name="Premium Landscape Service" content="GreenUp is a landscape company located in the United States and perform a variety of differnt services and field work">
+    <meta name="Premium Landscape Service"
+        content="GreenUp is a landscape company located in the United States and perform a variety of differnt services and field work">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/502334641c.js" crossorigin="anonymous"></script>
@@ -86,15 +87,15 @@
                 </div>
 
                 <div class="d-flex d-lg-none flex-column hand-group justify-content-center">
-                    <img src="./images/hand.svg" class="hand-image" loading="lazy" alt="Hand image">
-                    <img src="./images/arrow1.svg" class="arrow1" loading="lazy" alt="Arrow 1">
-                    <img src="./images/arrow2.svg" class="arrow2 " loading="lazy" alt="Arrow 2">
+                    <img width="100%" height="45" src="./images/hand.svg" class="hand-image" loading="lazy" alt="Hand image">
+                    <img width="100%" height="15" src="./images/arrow1.svg" class="arrow1" loading="lazy" alt="Arrow 1">
+                    <img width="100%" height="15" src="./images/arrow2.svg" class="arrow2 " loading="lazy" alt="Arrow 2">
                 </div>
 
                 <div class=" flex-column mouse-group justify-content-center">
-                    <img src="./images/Mouse.svg" loading="lazy" alt="Mouse icon">
-                    <img src="./images/Moutse-arrow-1.svg" loading="lazy" alt="Arrow 1">
-                    <img src="./images/Mouse-arrow-2.svg" loading="lazy" alt="Arrow 2">
+                    <img width="42" height="50" src="./images/Mouse.svg" loading="lazy" alt="Mouse icon">
+                    <img width="42" height="20" src="./images/Moutse-arrow-1.svg" loading="lazy" alt="Arrow 1">
+                    <img width="42" height="20" src="./images/Mouse-arrow-2.svg" loading="lazy" alt="Arrow 2">
                 </div>
             </div>
         </section>
@@ -105,8 +106,17 @@
                     <div class=" col-lg-6 d-none d-lg-block">
                         <div class="cover bg-left">
                             <!-- Background image is placed here (CSS) -->
-                            <img width="960" height="713" src="./images/img/landscape-yard-min.webp" class="img-fluid w-100 leftimg" loading="lazy"
-                                alt="High quality landscaping with rich green grass">
+                            <picture>
+                                <source width="960" height="713" srcset="./images/img/landscape-yard-min.webp"
+                                    type="image/webp" class="img-fluid w-100 leftimg" loading="lazy">
+                                <source width="960" height="713" srcset="./images/img/landscape-yard-min.jpg"
+                                    type="image/jpeg" class="img-fluid w-100 leftimg" loading="lazy">
+                                <img width="960" height="713" src="./images/img/landscape-yard-min.jpg"
+                                    class="img-fluid w-100 leftimg" loading="lazy"
+                                    alt="High quality landscaping with rich green grass">
+                            </picture>
+                            <!-- <img width="960" height="713" src="./images/img/landscape-yard-min.webp" class="img-fluid w-100 leftimg" loading="lazy"
+                                alt="High quality landscaping with rich green grass"> -->
                         </div>
                     </div>
                     <div class="col-lg-6 px-5 right-context align-items-center main-content-right">
@@ -579,23 +589,63 @@
             </div>
             <div class="container img-gallery d-sm-flex justify-content-center align-items-center pt-4">
                 <div class="card">
-                    <img src="./images/img/image-gallery-1.jpg" loading="lazy" alt="Landscape yard with lawn care">
+                    <picture>
+                        <source width="1280" height="853" srcset="./images/img/image-gallery-1-min.webp"
+                            type="image/webp" loading="lazy">
+                        <source width="1280" height="853" srcset="./images/img/image-gallery-1-min.jpg"
+                            type="image/jpeg" loading="lazy">
+                        <img width="1280" height="853" src="./images/img/image-gallery-1-min.jpg" loading="lazy"
+                            alt="Landscape yard with lawn care">
+                    </picture>
+                    <!-- <img width="1280" height="854" src="./images/img/image-gallery-1.jpg" loading="lazy"
+                        alt="Landscape yard with lawn care"> -->
                     <div class="card__head">Landscape 1</div>
                 </div>
                 <div class="card">
-                    <img src="./images/img/image-gallery-2.jpg" loading="lazy" alt="Lawn maintenance front yard">
+                    <picture>
+                        <source width="1280" height="853" srcset="./images/img/image-gallery-2-min.webp"
+                            type="image/webp" loading="lazy">
+                        <source width="1280" height="853" srcset="./images/img/image-gallery-2-min.jpg"
+                            type="image/jpeg" loading="lazy">
+                        <img width="1280" height="853" src="./images/img/image-gallery-2-min.jpg" loading="lazy"
+                            alt="Front yard landscape with stones and lightpost">
+                    </picture>
                     <div class="card__head">Landscape 2</div>
                 </div>
                 <div class="card">
-                    <img src="./images/img/image-gallery-3.jpg" loading="lazy" alt="Stone landscaping front yard">
+                    <picture>
+                        <source width="1280" height="853" srcset="./images/img/image-gallery-3-min.webp"
+                            type="image/webp" loading="lazy">
+                        <source width="1280" height="853" srcset="./images/img/image-gallery-3-min.jpg"
+                            type="image/jpeg" loading="lazy">
+                        <img width="1280" height="853" src="./images/img/image-gallery-3-min.jpg" loading="lazy"
+                            alt="Stone landscaping front yard">
+                    </picture>
+                    <!-- <img src="./images/img/image-gallery-3.jpg" loading="lazy" alt="Stone landscaping front yard"> -->
                     <div class="card__head">Landscape 3</div>
                 </div>
                 <div class="card">
-                    <img src="./images/img/image-gallery-4.jpg" loading="lazy" alt="Pool landscaping back yard">
+                    <picture>
+                        <source width="1280" height="853" srcset="./images/img/image-gallery-4-min.webp"
+                            type="image/webp" loading="lazy">
+                        <source width="1280" height="853" srcset="./images/img/image-gallery-4-min.jpg"
+                            type="image/jpeg" loading="lazy">
+                        <img width="1280" height="853" src="./images/img/image-gallery-4-min.jpg" loading="lazy"
+                            alt="Pool landscaping back yard">
+                    </picture>
+                    <!-- <img src="./images/img/image-gallery-4.jpg" loading="lazy" alt="Pool landscaping back yard"> -->
                     <div class="card__head">Landscape 4</div>
                 </div>
                 <div class="card">
-                    <img src="./images/img/image-gallery-5.jpg" loading="lazy" alt="New landscaping idea for homes">
+                    <picture>
+                        <source width="1280" height="853" srcset="./images/img/image-gallery-5-min.webp"
+                            type="image/webp" loading="lazy">
+                        <source width="1280" height="853" srcset="./images/img/image-gallery-5-min.jpg"
+                            type="image/jpeg" loading="lazy">
+                        <img width="1280" height="853" src="./images/img/image-gallery-5-min.jpg" loading="lazy"
+                            alt="New landscaping idea for homes">
+                    </picture>
+                    <!-- <img src="./images/img/image-gallery-5.jpg" loading="lazy" alt="New landscaping idea for homes"> -->
                     <div class="card__head">Landscape 5</div>
                 </div>
             </div>
