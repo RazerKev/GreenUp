@@ -908,3 +908,11 @@ screen and (max-height: 630px) {
 /* Chrome, Safari */
 
 /* Scrollbar */
+
+// Webp Plugin 
+.no-webp .hero {
+    background-image: url('../images/img/cover-landscape-img-mobile-min.jpg');
+}
+.webp .hero {
+    background-image: url('../images/img/cover-landscape-min.webp');
+}
