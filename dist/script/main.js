@@ -145,6 +145,7 @@ $(window).scroll(function () {
     }
 
 });
+
 // Form Control 
 function validateForm() {
     var n = document.getElementById('name').value;
